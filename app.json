@@ -1,24 +1,15 @@
 {
-    "name": "YouTube thumbnail download bot",
-    "description": "A simple bot to download YouTube video thumbnail",
-    "logo": "",
-    "keywords": [
-        "Telegram Bot",
-        "MG Projects",
-        "YouTube bot telegram"
-    ],
-    "repository": "https://github.com/Master-Genius-code/telegram-youtube-thumbnail-download--bot/",
-    "website": "https://mastergeniusweb.000webhostapp.com/",
-    "success_url": "/",
-    "env": {
+  "name": "zangetsu-rename-bot",
+  "description": "Simple & High Speed Telegram File Rename Bot For only personal use",
+  "logo": "https://telegra.ph/file/c34c173cc17a006b89944.jpg",
+  "keywords": ["telegram", "Rename-bot", "pyrogram"],
+  "repository": "https://github.com/shadownnilllxa/thumbnail-telegram",
+  "env": {
         "BOT_TOKEN": {
             "description": "@BotFather won't refuse for the bot token.",
             "value": ""
         }
-    },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
+    }, 
+  "addons": [ ],
+  "buildpacks": [{"url": "heroku/python"}]
 }
